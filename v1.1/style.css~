@@ -1,0 +1,23 @@
+/* style.css for AK's Me-App, a bth-exercise 2018 */
+
+body {
+    background-image: url("../img/sunset_narr_hi-res.png");
+    background-size: cover;
+    color: #ffc;
+    padding: 5px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-flow: row | nowrap;
+    justify-content: space-evenly;
+    color: #fffff2;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+

@@ -1,0 +1,21 @@
+// prens.js Presentations for a bth webbapp-course
+
+"use strict";
+
+var prens = (function (){
+
+    var kmom01 = {title: "kmom01",
+		  qns: ["ett?", "tu?", "tre?"],
+		  answs: ["uno.", "dos.", "tres."]};
+
+
+    
+    var makeView = function () {
+
+	
+    };
+    
+    return {
+	makeView: makeView
+    };
+}(prens))
